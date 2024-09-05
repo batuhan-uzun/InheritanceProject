@@ -14,5 +14,5 @@ Student student = new Student() // Created object from Student class
     StudentID = 25
 };
 
-teacher.printTeacherInfo(); // Teacher information printed
-student.printStudentInfo(); // Student information printed
+teacher.PrintTeacherInfo(); // Teacher information printed
+student.PrintStudentInfo(); // Student information printed
