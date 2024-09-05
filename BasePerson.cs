@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceProject
 {
-    public class BasePerson
+    public class BasePerson // BasePerson class created
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -17,7 +17,7 @@ namespace InheritanceProject
         }
     }
 
-    public class Student : BasePerson
+    public class Student : BasePerson // Student class was created by inheritance from BasePerson class
     {
         public int StudentID { get; set; }
         public void printStudentInfo()
@@ -26,7 +26,7 @@ namespace InheritanceProject
         }
     }
 
-    public class Teacher : BasePerson
+    public class Teacher : BasePerson // Teacher class was created by inheritance from BasePerson class
     {
         public int Salary { get; set; }
         public void printTeacherInfo()
