@@ -20,7 +20,7 @@ namespace InheritanceProject
     public class Student : BasePerson // Student class was created by inheritance from BasePerson class
     {
         public int StudentID { get; set; }
-        public void printStudentInfo()
+        public void PrintStudentInfo()
         {
             Console.WriteLine($"{Name} {Surname} {StudentID}");
         }
@@ -29,7 +29,7 @@ namespace InheritanceProject
     public class Teacher : BasePerson // Teacher class was created by inheritance from BasePerson class
     {
         public int Salary { get; set; }
-        public void printTeacherInfo()
+        public void PrintTeacherInfo()
         {
             Console.WriteLine($"{Name} {Surname} {Salary}");
         }
